@@ -1,15 +1,32 @@
+@keyframes shrink{
+    0% {width:55%;}
+    100% {width:15%;transform: rotateY(720deg);}
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+@keyframes showBg{
+    from{}
+    to{background-color: #E5E5E5;}
+    }
 h1{
     color:red;
 }
 #photodiv{
 text-align: center;
-background-color: #E5E5E5;
 padding:10px;
 margin: 20px 80px 0 80px;
 }
 
+.showbg{
+animation-name: showBg;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
 #myPic{
-    width: 15%;
+    width: 55%;
     border-radius: 50%;
 }
 
@@ -21,4 +38,17 @@ margin: 20px 80px 0 80px;
 }
 p{
     margin:0;
+}
+.shrinked{
+    animation-name: shrink;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.show{
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.hidden{
+    opacity: 0;
 }
