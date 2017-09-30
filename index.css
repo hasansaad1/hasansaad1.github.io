@@ -11,7 +11,7 @@
     to{background-color: #E5E5E5;}
     }
 h1{
-    color:red;
+ 
 }
 #photodiv{
 text-align: center;
@@ -30,12 +30,13 @@ animation-fill-mode: forwards;
     border-radius: 50%;
 }
 
-#about{
+div{
     background-color: #F5F5F5;
-    margin:0 80px 0 80px ;
-    padding: 10px;
+    margin:0 80px 0 80px;
     text-align: center;
+    padding: 0;
 }
+
 p{
     margin:0;
 }
@@ -51,4 +52,21 @@ p{
 }
 .hidden{
     opacity: 0;
+    display: none;
+}
+p1{
+    font-family: 'Playfair Display', serif;
+    font-size : 20px;
+    
+}
+h2{
+    font-family:  'Playfair Display', serif;
+}
+.hidden div{
+    margin:0;
+    opacity: 0.60;
+}
+.hidden div:hover{
+    box-shadow: 0 0 20px #888888;
+    opacity:1;
 }
