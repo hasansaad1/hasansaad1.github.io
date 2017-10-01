@@ -31,8 +31,12 @@ h2 {
     line-height: 32px; 
     margin: 10px 0 24px; 
     }
-.smallerPhoto{
-      width: 50%;
+.sizePhoto{
+      width: 100%;
+    }
+.makeTwo{
+        height : 750px;
+        width: 50%;
     }
 
 
